@@ -87,4 +87,4 @@ fi
 # Enable and start SDDM
 echo "Enabling and starting SDDM"
 sudo systemctl enable --now sddm
-
+sudo systemctl start sddm.service 
